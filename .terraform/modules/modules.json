@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"im-workspace","Source":"registry.terraform.io/terraform-google-modules/bootstrap/google//modules/im_cloudbuild_workspace","Version":"7.2.0","Dir":".terraform/modules/im-workspace/modules/im_cloudbuild_workspace"}]}

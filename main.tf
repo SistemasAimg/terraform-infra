@@ -27,14 +27,11 @@ terraform {
   required_providers {
     google = {
       source  = "hashicorp/google"
-      version = "~> 4.66.0" # Cambia esto a la última versión estable
-    }
-    google-beta = {
-      source  = "hashicorp/google-beta"
-      version = "~> 4.66.0" # Cambia esto a la última versión estable
+      version = "~> 5.0"
     }
   }
 }
+
 
 resource "google_cloudbuild_trigger" "general_build_trigger" {
   name     = var.cloud_build_name
