@@ -4,10 +4,10 @@ module "im-workspace" {
 
   project_id                  = "storage-entorno-de-desarrollo"
   deployment_id               = "infra-manager-deployment"
-  im_deployment_repo_uri      = "https://github.com/<tu-usuario>/<repositorio>.git"
+  im_deployment_repo_uri      = "https://github.com/SistemasAimg/terraform-infra.git"
   im_deployment_ref           = "main"  # Cambia si usas otra rama predeterminada
 
-  github_app_installation_id  = "<ID de instalación de GitHub App>"  # Consulta el ID en GitHub
+  github_app_installation_id  = "58476315"  # Consulta el ID en GitHub
   github_personal_access_token = "github-token" # Nombre del secreto
 }
 
