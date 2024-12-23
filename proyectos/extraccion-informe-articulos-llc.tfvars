@@ -1,0 +1,10 @@
+project_id          = "storage-entorno-de-desarrollo"
+region              = "us-central1"
+github_repository   = "extraccion-informe-articulos-llc"
+artifact_repo_name  = "repo-extraccion-informe-articulos"
+artifact_image      = "extraccion-informe-articulos-llc:latest"
+cloud_build_name    = "build-extraccion-informe-articulos-llc"
+cloud_run_job_name  = "extraccion-informe-articulos-llc"
+memory_limit        = "1Gi" # Este proyecto necesita más memoria # Cuenta personalizada
+artifact_repo_id    = "repo-extraccion-informe-articulos"
+build_trigger_name  = "build-extraccion-informe-articulos-llc"
